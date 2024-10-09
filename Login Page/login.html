@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Welcome | Login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="http://gmail.com" class="icon"><img src="./assets/google.png" alt="google.icon"></i></a>
+                    <a href="https://facebook.com" class="icon"><img src="./assets/5296499_fb_facebook_facebook logo_icon.png" alt="facebook.icon"></i></a>
+                </div>
+                <span>or</span>
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="E-mail or Phone Number">
+                <input type="password" placeholder="Password (max 16 characters)">
+                <input type="password" placeholder="Confirm Password">
+                 <a href="/College Finder/index.html"><button>Login</button></a>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="http://gmail.com" class="icon"> <img src="./assets/google.png" alt="google.icon"></a>
+                    <a href="https://facebook.com" class="icon"><img src="./assets/5296499_fb_facebook_facebook logo_icon.png" alt="facebook.icon"></i></a>
+                </div>
+                <span>or</span>
+                <input type="email" placeholder="E-mail or Phone Number">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot Password?</a>
+                <a href="/College Finder/index.html"><button>Login</button></a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, Student</h1>
+                    <p>Already a user?</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Student!</h1>
+                    <p>Do you want to create an account?</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
